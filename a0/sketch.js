@@ -1,12 +1,15 @@
 function setup() {
   // width x height
   createCanvas(800, 600);
+  frameRate(1);
+  
   c = color('LightSkyBlue')
   background(c);
   // draw 3 clouds in background
   drawCloud(10,10);
   drawCloud(200,300);
   drawCloud(400,-200);
+  
   noStroke();
 }
 
